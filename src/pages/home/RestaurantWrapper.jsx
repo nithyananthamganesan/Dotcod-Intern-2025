@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../../components/Body/Card'
+import Card from '../../components/body/Card'
 
 const RestaurantWrapper = () => {
   return (

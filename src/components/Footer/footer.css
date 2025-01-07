@@ -1,7 +1,8 @@
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
-    text-align: center;
     height: 50px;
 }

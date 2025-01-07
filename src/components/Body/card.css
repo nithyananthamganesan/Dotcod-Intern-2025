@@ -11,16 +11,13 @@
     border: 1px solid #0a0a0a57;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px;
-    
+    padding: 10px;    
 }
-
 
 .card-img>img {    
     width: 100%;
     height: 150px;
     border-radius: 10px;    
-
 }
 
 .card-content > p{
@@ -28,19 +25,57 @@
     padding: 0;
 }
 
-.cart-button{
-    background-color: black;
-    color: white;
+.card-fav {
+    display: flex;
+    justify-content: space-between;
+}
+.fav-button {
+    color: #000;
     outline: none;
+    font-size: 1.5rem;
+    font-weight: 700;
     padding: 10px;
-    width: 100%;
-    border-radius: 15px;
+    background-color: transparent;
     border: none;
 }
-.cart-button:hover{
+.fav-button:hover {
     cursor: pointer;
-    background-color: rgb(27, 27, 27);
+    color: #444444;
     transition: all ease .2s;
 }
+.cart-button{    
+    color: black;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
 
+.card-btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    transition: all ease .2s;
+    border: 1px solid darkgray;
+}
 
+.card-btn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border-radius: 15px;
+    border: 1PX solid black;
+    width: 100%;    
+    cursor: pointer;
+}
+
+.cart-icon-btn {
+    position: absolute;
+    font-size: 1.5rem;
+    color: black;
+    top: 10%;
+    left: 80%;
+}

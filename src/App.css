@@ -3,10 +3,12 @@
 .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;    
+    min-height: 100vh;   
 }
 .main-header {
     height: 10%;
+    max-width: 1980px; 
+    margin: auto;
 }
 
 .main-body {
@@ -18,4 +20,6 @@
 .main-footer {
     background-color: aqua;
     width: 100%;
+    max-width: 1980px; 
+    margin: auto;
 }
